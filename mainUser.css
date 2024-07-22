@@ -1,0 +1,36 @@
+:root {
+    --colA: #F5F7F8;
+    --colB: #F4CE14;
+    --colC: #379777;
+    --colD: #45474B;
+}
+
+
+body{ 
+    background-color: var(--colD);
+    margin: 0;
+}
+h1,h2{
+    margin: 0;
+}
+button{
+    border-radius: 100%;
+    padding: 10px;
+    width: 50px;
+    margin: 2px ;
+    border: none;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: var(--colC);
+}
+.navbar{
+    background-color: var(--colB);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}

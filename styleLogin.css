@@ -1,0 +1,52 @@
+:root{
+    --colA:#F5F7F8;
+    --colB:#F4CE14;
+    --colC: #379777;
+    --colD: #45474B;
+}
+body{
+    background: linear-gradient(var(--colC),var(--colD),var(--colA));
+    background-size: cover;
+}
+label{
+    color: var(--colA);
+    font-size: 1.5rem;
+  
+}
+.box{
+    width: 350px;
+    height: 250px;
+    background-color: var(--colB);
+    color: var(--colD);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center ;
+    margin: auto;
+    margin-top: 10%;
+}
+
+input{
+    width: 130px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    background-color: var(--colA);
+    border: 1px solid var(--colD);
+}
+
+button{
+    border:none;
+    border-radius: 20px;
+    padding: 16px 20px;
+    font-weight: bold;
+    background-color: var(--colC);
+    margin-top: 20px ;
+}
+button:hover{
+background-color: var(--colD);
+cursor: pointer;
+
+}
